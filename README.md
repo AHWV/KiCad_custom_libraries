@@ -1,0 +1,1 @@
+# KiCad_custom_libraries
