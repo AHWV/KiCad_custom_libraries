@@ -225,4 +225,15 @@
 			(xyz -90 0 0)
 		)
 	)
+	(model "${KICAD_CUSTOM_DIR}/3dmodels/DC_Link_24x44x42_2pins.step"
+		(offset
+			(xyz 18.6 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

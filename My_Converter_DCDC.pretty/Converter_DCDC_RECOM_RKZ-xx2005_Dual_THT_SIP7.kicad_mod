@@ -291,4 +291,15 @@
 			(xyz -90 0 90)
 		)
 	)
+	(model "${KICAD_CUSTOM_DIR}/3dmodels/RKZ_xx2005D.step"
+		(offset
+			(xyz -2.25 -7.85 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
 )

@@ -393,4 +393,15 @@
 			(xyz -90 0 0)
 		)
 	)
+	(model "${KICAD_CUSTOM_DIR}/3dmodels/T1M-02-F-SH-L.stp"
+		(offset
+			(xyz 0 0 2.38)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

@@ -1,4 +1,4 @@
-(footprint "Nidec_Copal_CAS-D20B1"
+(footprint "SW_SPDTx02_Slide_Copal_CAS-D20B1_W5.6mm_P1.7mm_GullW"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "Nidec_Copal_CAS-D20B1"
+	(property "Value" "SW_SPDTx02_Slide_Copal_CAS-D20B1_W5.6mm_P1.7mm_GullW"
 		(at 0 0 90)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -69,7 +69,7 @@
 			)
 		)
 	)
-	(property "Manufacturer Part Number" "CAS-D20B1"
+	(property "Part #" "CAS-D20B1"
 		(at 0 0 90)
 		(layer "F.SilkS")
 		(hide yes)

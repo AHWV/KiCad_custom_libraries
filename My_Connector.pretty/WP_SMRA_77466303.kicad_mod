@@ -130,17 +130,6 @@
 		(uuid "52eff83d-a069-445a-844e-b335a39735db")
 	)
 	(fp_rect
-		(start -3.5 -2.8)
-		(end 3.5 2.8)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "f886dd32-7a36-4ede-8edf-7cbf014d4fae")
-	)
-	(fp_rect
 		(start -3.7 -3)
 		(end 3.7 3)
 		(stroke
@@ -150,6 +139,57 @@
 		(fill none)
 		(layer "F.CrtYd")
 		(uuid "6b772d54-b706-45b8-844c-645e964352cc")
+	)
+	(fp_line
+		(start -3.5 -1)
+		(end 3.5 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "15172d10-a786-448d-bc8a-b1f03bd61521")
+	)
+	(fp_line
+		(start -3.5 0.75)
+		(end -3.5 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bedfe363-2cdd-48cf-b4cd-fa2c02ddff6f")
+	)
+	(fp_line
+		(start 3.5 -1)
+		(end 3.5 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "215c79eb-d417-41c9-ac4e-abf86e973775")
+	)
+	(fp_line
+		(start 3.5 1)
+		(end -3.5 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "391d2722-2104-42f8-ae3e-b7dac4d2eb80")
+	)
+	(fp_rect
+		(start -3.5 -2.8)
+		(end 3.5 2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f886dd32-7a36-4ede-8edf-7cbf014d4fae")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
@@ -200,6 +240,17 @@
 		(uuid "6f1fc675-c2da-44cb-8a2d-435ef17ae722")
 	)
 	(model "${KIPRJMOD}/3dmodels/7466303.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+	(model "${KICAD_CUSTOM_DIR}/3dmodels/7466303.stp"
 		(offset
 			(xyz 0 0 0)
 		)
