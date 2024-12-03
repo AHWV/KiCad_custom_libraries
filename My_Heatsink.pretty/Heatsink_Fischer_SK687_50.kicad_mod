@@ -1235,7 +1235,7 @@
 			(xyz -90 0 -90)
 		)
 	)
-	(model "${KICAD_CUSTOM_DIR}/3dmodels/SK 687 50 SK.stp"
+	(model "${KICAD_CUSTOM_3D}/SK 687 50 SK.stp"
 		(offset
 			(xyz 25 -0.2 -0.05)
 		)

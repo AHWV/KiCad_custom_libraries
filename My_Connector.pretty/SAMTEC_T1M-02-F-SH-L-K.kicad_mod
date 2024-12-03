@@ -393,7 +393,7 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "${KICAD_CUSTOM_DIR}/3dmodels/T1M-02-F-SH-L.stp"
+	(model "${KICAD_CUSTOM_3D}/T1M-02-F-SH-L.stp"
 		(offset
 			(xyz 0 0 2.38)
 		)

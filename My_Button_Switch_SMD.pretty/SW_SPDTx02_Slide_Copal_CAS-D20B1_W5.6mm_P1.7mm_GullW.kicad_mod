@@ -283,7 +283,7 @@
 			(xyz -90 0 90)
 		)
 	)
-	(model "${KICAD_CUSTOM_DIR}/3dmodels/CAS-D20B1.stp"
+	(model "${KICAD_CUSTOM_3D}/CAS-D20B1.stp"
 		(offset
 			(xyz 0 0 2.5)
 		)

@@ -1,4 +1,4 @@
-(footprint "WP_SMRA_77466303"
+(footprint "WP_SMRA_7466303"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "WP_SMRA_77466303"
+	(property "Value" "WP_SMRA_7466303"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -250,7 +250,7 @@
 			(xyz 0 0 90)
 		)
 	)
-	(model "${KICAD_CUSTOM_DIR}/3dmodels/7466303.stp"
+	(model "${KICAD_CUSTOM_3D}/7466303.stp"
 		(offset
 			(xyz 0 0 0)
 		)

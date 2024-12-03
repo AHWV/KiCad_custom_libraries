@@ -169,7 +169,7 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "${KICAD_CUSTOM_DIR}/3dmodels/C4AUNBW5100M3FJ.step"
+	(model "${KICAD_CUSTOM_3D}/C4AUNBW5100M3FJ.step"
 		(offset
 			(xyz -21.5 10.5 0)
 		)

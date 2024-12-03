@@ -592,4 +592,15 @@
 			(xyz -90 0 0)
 		)
 	)
+	(model "${KICAD_CUSTOM_3D}/c-413638-e-c-3d.stp"
+		(offset
+			(xyz -26.7 -23.9 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

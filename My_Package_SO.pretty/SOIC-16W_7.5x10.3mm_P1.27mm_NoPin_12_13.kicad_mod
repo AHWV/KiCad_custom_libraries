@@ -355,7 +355,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "a58bf04e-f9b6-453c-8e86-262472ca8248")
 	)
-	(model "${KICAD_CUSTOM_DIR}/3dmodels/SOIC-16W_7.5x10.3mm_P1.27mm_noPin12_13.stp"
+	(model "${KICAD_CUSTOM_3D}/SOIC-16W_7.5x10.3mm_P1.27mm_noPin12_13.stp"
 		(offset
 			(xyz 0 0 0)
 		)
