@@ -444,7 +444,254 @@
 			)
 		)
 	)
-	(pad "D6" thru_hole circle
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "5c1cd4f4-63ec-4a24-a796-2c5ef7ee9940")
+		(pts
+			(xy -71.12 10.16) (xy -66.04 5.08)
+		)
+		(height -3.55)
+		(orientation 1)
+		(gr_text "5.0800 mm"
+			(at -75.82 7.62 90)
+			(layer "Dwgs.User")
+			(uuid "5c1cd4f4-63ec-4a24-a796-2c5ef7ee9940")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "612dfc40-2e35-4783-9bd2-88028ce02e23")
+		(pts
+			(xy 0 0) (xy 5.08 5.08)
+		)
+		(height 9)
+		(orientation 1)
+		(gr_text "5.0800 mm"
+			(at 10.5 2.5 90)
+			(layer "Dwgs.User")
+			(uuid "612dfc40-2e35-4783-9bd2-88028ce02e23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "7cad20e6-ef8d-439a-9a76-b40c03c98944")
+		(pts
+			(xy 5.08 5.08) (xy 17.78 10.16)
+		)
+		(height -8.58)
+		(orientation 0)
+		(gr_text "12.7000 mm"
+			(at 11.43 -4.65 0)
+			(layer "Dwgs.User")
+			(uuid "7cad20e6-ef8d-439a-9a76-b40c03c98944")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "9130ce0c-fea1-45c3-9d27-8108e5002ab8")
+		(pts
+			(xy -30.48 0) (xy -20.32 0)
+		)
+		(height 3.5)
+		(orientation 0)
+		(gr_text "10.1600 mm"
+			(at -25.4 2.35 0)
+			(layer "Dwgs.User")
+			(uuid "9130ce0c-fea1-45c3-9d27-8108e5002ab8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "9979fe55-9a28-4b47-a3ce-157be63243d5")
+		(pts
+			(xy -71.12 10.16) (xy 17.78 10.16)
+		)
+		(height 5.34)
+		(orientation 0)
+		(gr_text "88.9000 mm"
+			(at -26.67 14.35 0)
+			(layer "Dwgs.User")
+			(uuid "9979fe55-9a28-4b47-a3ce-157be63243d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "a14a97a2-fce2-4535-b74a-7d8f447a09d9")
+		(pts
+			(xy -73.67 12.5) (xy 20.33 12.5)
+		)
+		(height 5)
+		(orientation 0)
+		(gr_text "94.0000 mm"
+			(at -26.67 16.35 0)
+			(layer "Dwgs.User")
+			(uuid "a14a97a2-fce2-4535-b74a-7d8f447a09d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "fc3226bd-f55b-453d-937a-010153675857")
+		(pts
+			(xy -71.12 10.16) (xy -66.04 5.08)
+		)
+		(height -13.66)
+		(orientation 0)
+		(gr_text "5.0800 mm"
+			(at -68.58 -4.65 0)
+			(layer "Dwgs.User")
+			(uuid "fc3226bd-f55b-453d-937a-010153675857")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(pad "4" thru_hole rect
+		(at 5.08 5.08)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "b76a23e7-ad07-4f78-ba0a-d9c26e75359e")
+	)
+	(pad "6" thru_hole circle
 		(at 0 0)
 		(size 2.4 2.4)
 		(drill 1.6)
@@ -452,7 +699,15 @@
 		(remove_unused_layers no)
 		(uuid "34caacbe-175a-4d1e-a858-b3a5900eb60d")
 	)
-	(pad "D10" thru_hole circle
+	(pad "8" thru_hole circle
+		(at -5.08 5.08)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2886d58a-7a4b-4524-a3f7-276bb72e6c4e")
+	)
+	(pad "10" thru_hole circle
 		(at -10.16 0)
 		(size 2.4 2.4)
 		(drill 1.6)
@@ -460,7 +715,15 @@
 		(remove_unused_layers no)
 		(uuid "3d041189-ddf9-45bf-9d97-912b75296ee7")
 	)
-	(pad "D14" thru_hole circle
+	(pad "12" thru_hole circle
+		(at -15.24 5.08)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e4243409-4f12-42a4-a3a3-acfd9cb1775c")
+	)
+	(pad "14" thru_hole circle
 		(at -20.32 0)
 		(size 2.4 2.4)
 		(drill 1.6)
@@ -468,7 +731,15 @@
 		(remove_unused_layers no)
 		(uuid "b66ec354-c5cf-4c1e-934e-4448c9c37e02")
 	)
-	(pad "D18" thru_hole circle
+	(pad "16" thru_hole circle
+		(at -25.4 5.08)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b0f20b6-0942-4071-9b14-fdc7a3e4c9ca")
+	)
+	(pad "18" thru_hole circle
 		(at -30.48 0)
 		(size 2.4 2.4)
 		(drill 1.6)
@@ -476,7 +747,15 @@
 		(remove_unused_layers no)
 		(uuid "1efd47b9-ebc1-4d85-9f49-cc4cda43623f")
 	)
-	(pad "D22" thru_hole circle
+	(pad "20" thru_hole circle
+		(at -35.56 5.08)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c170d0b3-d773-442b-9d5f-14e0a2cd04c7")
+	)
+	(pad "22" thru_hole circle
 		(at -40.64 0)
 		(size 2.4 2.4)
 		(drill 1.6)
@@ -484,7 +763,15 @@
 		(remove_unused_layers no)
 		(uuid "a92fb407-4a8a-4e73-bffa-a33322316379")
 	)
-	(pad "D26" thru_hole circle
+	(pad "24" thru_hole circle
+		(at -45.72 5.08)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2015ed4f-314c-4a0a-a069-3192e8c0d28b")
+	)
+	(pad "26" thru_hole circle
 		(at -50.8 0)
 		(size 2.4 2.4)
 		(drill 1.6)
@@ -492,13 +779,29 @@
 		(remove_unused_layers no)
 		(uuid "b1a91a81-2378-4a19-a6c3-b19d0252fab3")
 	)
-	(pad "D30" thru_hole circle
+	(pad "28" thru_hole circle
+		(at -55.88 5.08)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26a8a2f3-4e86-4e1b-af51-238cd5bb0f55")
+	)
+	(pad "30" thru_hole circle
 		(at -60.96 0)
 		(size 2.4 2.4)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "8080b1d5-8253-41b3-88cc-987c0a30857a")
+	)
+	(pad "32" thru_hole circle
+		(at -66.04 5.08)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "44ca89be-4b67-4a10-b076-676da4dbfc1c")
 	)
 	(pad "MH1" thru_hole circle
 		(at 17.78 10.16)
@@ -515,71 +818,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "1a927cd1-1382-4219-a478-02b047820311")
-	)
-	(pad "Z4" thru_hole rect
-		(at 5.08 5.08)
-		(size 2.4 2.4)
-		(drill 1.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(thermal_bridge_angle 45)
-		(uuid "b76a23e7-ad07-4f78-ba0a-d9c26e75359e")
-	)
-	(pad "Z8" thru_hole circle
-		(at -5.08 5.08)
-		(size 2.4 2.4)
-		(drill 1.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "2886d58a-7a4b-4524-a3f7-276bb72e6c4e")
-	)
-	(pad "Z12" thru_hole circle
-		(at -15.24 5.08)
-		(size 2.4 2.4)
-		(drill 1.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "e4243409-4f12-42a4-a3a3-acfd9cb1775c")
-	)
-	(pad "Z16" thru_hole circle
-		(at -25.4 5.08)
-		(size 2.4 2.4)
-		(drill 1.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "0b0f20b6-0942-4071-9b14-fdc7a3e4c9ca")
-	)
-	(pad "Z20" thru_hole circle
-		(at -35.56 5.08)
-		(size 2.4 2.4)
-		(drill 1.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "c170d0b3-d773-442b-9d5f-14e0a2cd04c7")
-	)
-	(pad "Z24" thru_hole circle
-		(at -45.72 5.08)
-		(size 2.4 2.4)
-		(drill 1.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "2015ed4f-314c-4a0a-a069-3192e8c0d28b")
-	)
-	(pad "Z28" thru_hole circle
-		(at -55.88 5.08)
-		(size 2.4 2.4)
-		(drill 1.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "26a8a2f3-4e86-4e1b-af51-238cd5bb0f55")
-	)
-	(pad "Z32" thru_hole circle
-		(at -66.04 5.08)
-		(size 2.4 2.4)
-		(drill 1.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "44ca89be-4b67-4a10-b076-676da4dbfc1c")
 	)
 	(model "${KIPRJMOD}/3dmodels/c-413638-e-c-3d.stp"
 		(offset

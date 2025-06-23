@@ -1,0 +1,135 @@
+(footprint "PinSocket_1x02_P2.54mm_BottomEntry_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.75 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e7a5e5ba-2f85-47e2-8b3d-6cedf08e35ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PinSocket_1x02_P2.54mm_BottomEntry_Vertical"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "71786b4b-816b-4bb2-9341-bd7ed24a8c8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 1.23 1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35901288-5da1-4cfd-bca3-812c5f3922e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 1.23 1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9afa10e8-998b-45e9-a9ea-742b4a2fb42c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 1.23 1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b618121-432a-45ea-8283-b0a299645b87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.52 -1.23)
+		(end 3.98 3.77)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "43d41cb1-a70a-476b-9584-a3926ba6db5b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6f10c231-55e7-43a2-9d79-0d74d58c9de0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -0.02 2.54)
+		(size 1.25 1.25)
+		(drill 1.25)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "b934c19f-088a-4d0e-b372-f8ab79d0a2d7")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.5 2.54)
+		(size 1.25 1.25)
+		(drill 1.25)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "9086a06c-c055-4bb5-949a-4e501895fa6d")
+	)
+	(pad "1" thru_hole rect
+		(at -0.04 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "7938cb24-da54-4140-88ba-10d6f5c13405")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "72cfa605-82b3-42e3-aaf1-a57698418169")
+	)
+	(model "${KICAD_CUSTOM_3D}/BSW-102-04-T-S.stp"
+		(offset
+			(xyz 1.22 -1.27 8.875)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

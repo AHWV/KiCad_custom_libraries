@@ -1,4 +1,4 @@
-(footprint "TE_594750-E"
+(footprint "DIN41612_H15_Fem_TE_594750-E"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "TE_594750-E"
+	(property "Value" "DIN41612_H15_Fem_TE_594750-E"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -159,16 +159,82 @@
 		)
 	)
 	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "093abd72-f248-4b33-84ee-a41ed9c41b73")
+		(pts
+			(xy -46.5 -7.5) (xy 49 -7.5)
+		)
+		(height -8.054366)
+		(gr_text "95.5000 mm"
+			(at 1.25 -16.704366 0)
+			(layer "Dwgs.User")
+			(uuid "093abd72-f248-4b33-84ee-a41ed9c41b73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "72a21a2c-c151-42a5-b29f-913c0785d765")
+		(pts
+			(xy -35.56 -5.08) (xy 35.56 -5.08)
+		)
+		(height -7.67)
+		(gr_text "71.1200 mm"
+			(at 0 -13.9 0)
+			(layer "Dwgs.User")
+			(uuid "72a21a2c-c151-42a5-b29f-913c0785d765")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
 		(uuid "4f9cb91c-978c-477f-a560-93993aecc667")
 		(pts
 			(xy -43.73 -0.3) (xy 46.27 -0.3)
 		)
-		(height -13.45)
+		(height -9.95)
 		(orientation 0)
 		(gr_text "90.0000 mm"
-			(at 1.27 -14.9 0)
+			(at 1.27 -11.4 0)
 			(layer "Dwgs.User")
 			(uuid "4f9cb91c-978c-477f-a560-93993aecc667")
 			(effects
@@ -233,10 +299,10 @@
 		(pts
 			(xy -5.08 -5.08) (xy 5.08 -5.08)
 		)
-		(height 19.33)
+		(height 15.33)
 		(orientation 0)
 		(gr_text "10.1600 mm"
-			(at 0 13.1 0)
+			(at 0 9.1 0)
 			(layer "Dwgs.User")
 			(uuid "9115dfe2-002e-45b6-8309-5704a4d8698a")
 			(effects
@@ -267,10 +333,10 @@
 		(pts
 			(xy -5.08 -5.08) (xy 0 5.08)
 		)
-		(height 22.83)
+		(height 17.58)
 		(orientation 0)
 		(gr_text "5.0800 mm"
-			(at -2.54 16.6 0)
+			(at -2.54 11.35 0)
 			(layer "Dwgs.User")
 			(uuid "d6d1037e-fae3-4863-ba8c-f0b88ea9abad")
 			(effects
@@ -301,10 +367,10 @@
 		(pts
 			(xy 35.56 -5.08) (xy 30.48 5.08)
 		)
-		(height 19.19)
+		(height 15.69)
 		(orientation 1)
 		(gr_text "10.1600 mm"
-			(at 53.6 0 90)
+			(at 52.5 0 90)
 			(layer "Dwgs.User")
 			(uuid "deefab9e-1e88-4a6d-9dee-0ee7f0759487")
 			(effects
@@ -324,7 +390,7 @@
 		(style
 			(thickness 0.1)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
 	)
@@ -335,10 +401,10 @@
 		(pts
 			(xy 0 0) (xy 35.56 -5.08)
 		)
-		(height 62.75)
+		(height 54)
 		(orientation 1)
 		(gr_text "5.0800 mm"
-			(at 61.6 -2.54 90)
+			(at 55.25 -2.5 90)
 			(layer "Dwgs.User")
 			(uuid "df76dc75-342a-4673-b538-362c0f8ff73a")
 			(effects
@@ -358,7 +424,7 @@
 		(style
 			(thickness 0.1)
 			(arrow_length 1.27)
-			(text_position_mode 0)
+			(text_position_mode 2)
 			(extension_height 0.58642)
 			(extension_offset 0.5) keep_text_aligned)
 	)
@@ -403,10 +469,10 @@
 		(pts
 			(xy -43.73 -0.3) (xy -35.56 -5.08)
 		)
-		(height -12.95)
+		(height 10.3)
 		(orientation 0)
 		(gr_text "8.1700 mm"
-			(at -39.645 -14.4 0)
+			(at -39.645 8.85 0)
 			(layer "Dwgs.User")
 			(uuid "f862593a-ee53-4db0-8e90-282a3494ba3b")
 			(effects
@@ -565,9 +631,9 @@
 		(remove_unused_layers no)
 		(uuid "e39eadb3-e449-41b3-8b8a-a43bee89ddc3")
 	)
-	(model "E:/Repos/GitHub/HBridge_HFreq_HVolt_r0/pcb/HalfBridge_SiC/3dmodels/c-594750-e-d-3d.stp"
+	(model "${KICAD_CUSTOM_3D}/c-594750-e-d-3d.stp"
 		(offset
-			(xyz 1.3 0 10.5)
+			(xyz 1.25 0 10)
 		)
 		(scale
 			(xyz 1 1 1)

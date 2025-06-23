@@ -57,26 +57,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -25.5 -5.6)
-		(end 25.5 -5.6)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "835cb5ae-9a2c-4181-98d7-eb0b80c302fe")
-	)
-	(fp_line
-		(start -25.5 -3.6)
-		(end 25.5 -3.6)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "cf7fdc3f-53af-49d4-8fdf-d81369369831")
-	)
-	(fp_line
 		(start -25.5 7.35)
 		(end -24.5 7.35)
 		(stroke
@@ -1097,7 +1077,7 @@
 		(uuid "ac93d8c7-ca4d-48ca-96ff-4276108c9b38")
 	)
 	(fp_rect
-		(start -25.5 -10.7)
+		(start -25.5 -1.9)
 		(end 25.5 7.35)
 		(stroke
 			(width 0.1)
@@ -2209,7 +2189,7 @@
 		(uuid "a62cb109-1e39-460d-831b-3c1d64d08830")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/alan.wilson/OneDrive - UNIVERSIDAD ANDRES BELLO/Repos/GitHub/KiCad_custom_libraries/3dmodels/C247-050-2VE.stp"
+	(model "${KICAD_CUSTOM_3D}/C247-050-2VE.stp"
 		(offset
 			(xyz 0 1.75 20)
 		)

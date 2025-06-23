@@ -1,0 +1,166 @@
+(footprint "PinSocket_1x02_P2.54mm_SAMTEC_BSW-102-04-T-S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "971a26d6-89f9-40c1-a9f9-cb08dffbbd67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PinSocket_1x02_P2.54mm_SAMTEC_BSW-102-04-T-S"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "13520a4c-c717-4a9d-936c-0d893dc8b766")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f8ee6ae-2bc9-4c32-90b0-34d3b0c7be48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c07a4a1-da78-40b7-97df-aae43af22692")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.5 -2.6)
+		(end 2 -2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1b6b85ca-bb65-455e-9cb0-25f45b004071")
+	)
+	(fp_rect
+		(start -2.9 -2.7)
+		(end 2.9 2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9043c207-feb2-44f8-93c6-35ed775f8728")
+	)
+	(fp_rect
+		(start -2 -2.6)
+		(end -0.5 -2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "46ba3674-23cd-452c-a328-2bb5d59b9e44")
+	)
+	(fp_rect
+		(start -3 -2.8)
+		(end 3 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1614930f-7817-4c5f-8a95-b7aa1640ab81")
+	)
+	(fp_rect
+		(start -2.9 -2.7)
+		(end 2.9 2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "57d3254c-0342-4226-8d6e-09bb1eeb6140")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9f4decb1-d1a9-405f-9044-f7859eb642d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -1.27 -1.27)
+		(size 1 1)
+		(drill 1.3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "6eabc7c0-af20-4cd9-a3dd-793b5adfc169")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.27 -1.27)
+		(size 1 1)
+		(drill 1.3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "f0f58bc3-d145-43ef-8408-18c72c2c26dd")
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 1.27)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "b9273205-5bf7-4fae-a177-cb3b5685dba6")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 1.27)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "d1e09ed1-42e5-4337-be95-0d37edcfc05a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_CUSTOM_3D}/BSW-102-04-T-S.stp"
+		(offset
+			(xyz 0 0 8.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 180)
+		)
+	)
+)
